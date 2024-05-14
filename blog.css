@@ -1,0 +1,53 @@
+/* NAVIGATION */
+#navigation{
+    text-align: center;
+    
+}
+.logo{
+    display: block;
+    margin: 4% auto 2%;
+}
+.nav-link{
+    color: black;
+    margin: 0 19px;
+    font-family: Arial black,  sans-serif;   
+    font-size: 14px;
+    font-weight: normal;
+    
+}
+.nav-link:hover{
+    color: rgb(24, 173, 123);
+}
+
+
+.navbar-nav .nav-link.active {
+    color: rgb(24, 173, 123);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.collapse{
+    
+    margin-bottom: 30px;
+
+}
+
+/* Heading */
+.heading{
+    text-align: center  ;
+}
+span{
+    color: rgb(255, 249, 249);
+    
+    font-family: 'Poller One', cursive;
+    font-size: 35px;
+    font-weight: normal;
+  
+    
+    
+    background: #252525;
+    display: inline-block;
+    padding: 15px 28px 12px;
+}

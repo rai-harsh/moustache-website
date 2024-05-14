@@ -1,0 +1,171 @@
+#navigation{
+    text-align: center;
+    
+}
+.logo{
+    display: block;
+    margin: 4% auto 2%;
+}
+.nav-link{
+    color: black;
+    margin: 0 19px;
+    font-family: Arial black,  sans-serif;   
+    font-size: 14px;
+    font-weight: normal;
+    
+}
+.nav-link:hover{
+    color: rgb(24, 173, 123);
+}
+.navbar-nav .nav-link.active {
+    color: rgb(24, 173, 123);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.collapse{
+    
+    margin-bottom: 30px;
+
+}
+
+/* FRONT PAGE */
+.front-page{
+    background-image:  url("front.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 10% 18% 10% ;
+    text-align: right;
+}
+.text-on-img{
+    display: inline-block;
+    text-align: left;
+    padding-left: 52%;
+    
+}
+h2{
+    display: inline-block;
+    background-color: white;
+    font-family: 'Poller One', cursive;
+    font-size: 20px;
+    padding: 23px 27px 20px;
+    margin: 0 0 18px;
+
+}
+
+span{
+    
+    display: inline-block;
+    background-color:rgb(57, 57, 57);
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    padding: 6px 20px;
+    font-size: 20px;
+    margin: 6px ;
+    margin-left: 0px;
+}
+.btn{
+    background-color: #0ba39c;
+    
+}
+.btn:hover{
+    background-color: #3aded5;
+    
+}
+/* MEMBERS */
+.members{
+    padding: 3%  17%;
+}
+.member-img{
+    border: 2px solid ;
+    margin-bottom: 9%;
+    opacity: 80%;
+}
+.member-img:hover{
+    
+    opacity: 100%;
+}
+h5{
+    font-family: 'Poller One', cursive;
+    
+}
+/* FOOTER */
+.footer{
+    padding: 3% 17%;
+    background-color: black;
+
+}
+p{
+    color: white;
+}
+.icon{
+color: white;
+
+--fa-border-padding:4% 2%;
+border-color: white;
+margin: 2%;
+}
+.footer-text{
+    text-align: left;
+    padding-top: 2%;
+}
+.footer-icons{
+    text-align:right;
+}
+.icon:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+@media only screen and (max-width: 600px) 
+{
+    .front-page{
+        background-image:  url("front.jpg");
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+       
+        
+        padding: 0px;
+    }
+    h2{
+        font-size: 14px;
+        font-weight: normal;
+        margin: 50px 0 10px;
+        padding: 8px 5px;
+    }
+    
+
+    
+    span{
+        
+        display: block;
+        font-size: 14px;
+        margin: 10px 0;
+        padding: 10px;
+        
+    }
+    
+    .text-on-img{
+        display: block;
+        padding: 2%;
+        
+    }
+    .navbar-toggler-icon{
+        color: #3aded5;
+        background-color: #0ba39c;
+        padding: 74% ;
+        border-radius: 5%;
+        
+    }
+    .logo{
+        width: 90%;
+    }
+   
+    
+}

@@ -1,0 +1,96 @@
+/* NAVIGATION */
+#navigation{
+    text-align: center;
+    
+}
+.logo{
+    display: block;
+    margin: 4% auto 2%;
+}
+.nav-link{
+    color: black;
+    margin: 0 19px;
+    font-family: Arial black,  sans-serif;   
+    font-size: 14px;
+    font-weight: normal;
+    
+}
+.nav-link:hover{
+    color: rgb(24, 173, 123);
+}
+
+
+.navbar-nav .nav-link.active {
+    color: rgb(24, 173, 123);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.collapse{
+    
+    margin-bottom: 30px;
+
+}
+
+/* WEBSITE CONTENT */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    
+}
+.heading{
+    text-align: center  ;
+}
+span{
+    color: rgb(255, 249, 249);
+    
+    font-family: 'Poller One', cursive;
+    font-size: 35px;
+    font-weight: normal;
+  
+    
+    
+    background: #252525;
+    display: inline-block;
+    padding: 15px 28px 12px;
+}
+.content{
+    margin: 0 280px;
+    text-align: center;
+}
+.photographer{
+    border: 2px solid #292929;
+    margin: 24px 0 0;
+    padding: 0;
+}
+.text{
+            margin: 0 10.625rem;
+    padding: 30px 30px 0;
+    
+}
+h4{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 24px;
+}
+p{
+    
+    margin-top: 0px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    padding: 0px 12px
+    
+}
+
+
